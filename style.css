@@ -1,0 +1,60 @@
+h1{
+    color: red;
+    
+}
+h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.header{
+    background-color : rgb(255, 255, 255);
+    display: flex;
+    justify-content:  space-between;
+}
+.header *{
+    
+    border: solid;
+    padding: 10px;
+   
+
+}
+.box{
+display: flex;
+background-color:rgb(255, 255, 255);
+
+justify-content:  space-between;
+flex-wrap: wrap;
+
+
+
+}
+.row{
+  position: relative;
+}
+.row h3{
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform: translate(-1%, -50%);
+    opacity: 1
+}
+.row:hover img{
+    opacity: 0
+}
+
+
+.icons{
+  display: flex;
+  justify-content:  flex-end;
+
+}
+body{
+    background-color: #0f1241;
+}
+.footer{
+
+    background-color:#ffffff;
+    display: flex;
+    justify-content: flex-end;
+
+}
